@@ -22,7 +22,7 @@ sub convert {
             "&#x$e;";
         } else {
             # non-mobile
-            '<img src="'.$opts->{img_base}.'/'.$1.'.gif" alt="['.$1.']" height="16" width="16" />';
+            '<img src="'.$opts->{img_base}.'/'.$1.'.gif" alt="['.$1.']" class="emoticon" />';
         }
     }ge;
 
