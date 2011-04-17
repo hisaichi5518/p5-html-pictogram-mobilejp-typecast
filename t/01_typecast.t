@@ -14,7 +14,7 @@ my @tests = (
         "non_mobile",
         "[typecast:24hours]",
         { img_base => "http://localhost/img" },
-        '<img src="http://localhost/img/24hours.gif" alt="[24hours]" height="16" width="16" />'
+        '<img src="http://localhost/img/24hours.gif" alt="[24hours]" class="emoticon" />'
     ],
     ["docomo", "[typecast:by-d]", {}, '&#xE6D4;'],
 );
