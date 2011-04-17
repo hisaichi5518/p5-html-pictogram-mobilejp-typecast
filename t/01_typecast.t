@@ -17,6 +17,12 @@ my @tests = (
         '<img src="http://localhost/img/24hours.gif" alt="[24hours]" class="emoticon" />'
     ],
     ["docomo", "[typecast:by-d]", {}, '&#xE6D4;'],
+    [
+        "sotbnk",
+        "[typecast:pencil]",
+        { img_base => "http://localhost/img" },
+        '<img src="http://localhost/img/pencil.gif" alt="[pencil]" class="emoticon" />'
+    ],
 );
 
 for my $args (@tests) {

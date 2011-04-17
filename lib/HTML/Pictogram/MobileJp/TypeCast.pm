@@ -16,19 +16,22 @@ sub convert {
             "&#x$i;";
         } elsif ($ma->is_softbank) {
             my $s = $SOFTBANK->{$1};
-            "&#x$s;";
+            $s ? "&#x$s;" : _make_img_tag($1, $opts);
         } elsif ($ma->is_ezweb) {
             my $e = $EZWEB->{$1};
-            "&#x$e;";
+            $e ? "&#x$e;" : _make_img_tag($1, $opts);
         } else {
             # non-mobile
-            '<img src="'.$opts->{img_base}.'/'.$1.'.gif" alt="['.$1.']" class="emoticon" />';
+            _make_img_tag($1, $opts);
         }
     }ge;
 
     $html;
 }
-
+sub _make_img_tag {
+    my($name, $opts) = @_;
+    '<img src="'.$opts->{img_base}.'/'.$name.'.gif" alt="['.$name.']" class="emoticon" />';
+}
 1;
 __END__
 
