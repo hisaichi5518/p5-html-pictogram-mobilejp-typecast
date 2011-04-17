@@ -5,7 +5,7 @@ use warnings;
 use 5.00800;
 use HTML::Pictogram::MobileJp::TypeCast::Map;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub convert {
     my ( $class, $ma, $html, $opts ) = @_;
