@@ -1,13 +1,9 @@
 This is Perl module HTML::Pictogram::MobileJp::TypeCast.
 
-SYNOPSIS
-
-    use HTML::Pictogram::MobileJp::TypeCast;
-
 INSTALLATION
 
-Install cpanm (App::cpanminus) and then run the following command
-to install HTML::Pictogram::MobileJp::TypeCast:
+Install cpanm (App::cpanminus) and then run the following command to install
+HTML::Pictogram::MobileJp::TypeCast:
 
     $ cpanm HTML::Pictogram::MobileJp::TypeCast
 
@@ -25,8 +21,7 @@ Then install it:
 
 DOCUMENTATION
 
-HTML::Pictogram::MobileJp::TypeCast documentation is available as in POD.
-So you can do:
+HTML::Pictogram::MobileJp::TypeCast documentation is available as in POD. So you can do:
 
     $ perldoc HTML::Pictogram::MobileJp::TypeCast
 
@@ -34,7 +29,7 @@ to read the documentation online with your favorite pager.
 
 LICENSE AND COPYRIGHT
 
-Copyright (c) 2010, hisaichi5518. All rights reserved.
+Copyright (c) 2011, hisaichi5518. All rights reserved.
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.

@@ -1,2 +1,7 @@
+Revision history for Perl extension HTML::Pictogram::MobileJp::TypeCast
+
+0.03 2011-06-12 00:00:00
+    - dim で作り直した。
+
 0.01 2011-04-17 00:00:00
     - original version; create by poi.

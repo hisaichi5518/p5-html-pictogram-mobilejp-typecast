@@ -1,0 +1,21 @@
+# for HTML-Pictogram-MobileJp-TypeCast
+# Makefile.PL
+Module::Install
+Module::Install::AuthorTests
+Module::Install::Repository
+HTTP::MobileAgent
+
+# test stuff
+Test::More
+
+# author's tests
+Test::Pod
+Test::Pod::Coverage
+Test::Spelling
+Test::Perl::Critic
+Test::Synopsis
+
+# Release tools
+ShipIt
+ShipIt::Step::ChangeAllVersions
+CPAN::Uploader
